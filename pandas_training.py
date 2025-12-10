@@ -479,10 +479,10 @@ plt.close(fig)
 
 # Heatmap of correlation matrix
 corr_matrix = gallstone_dataset.corr(numeric_only=True)
-fig, ax = plt.subplots(figsize=(12, 10))  # Increase figure size
+fig, ax = plt.subplots(figsize=(20, 16), constrained_layout=True)  # Adjust figure size
 sns.heatmap(corr_matrix, fmt=".2f", cmap='coolwarm', ax=ax)
 ax.set_title('Correlation Matrix Heatmap')
-plt.tight_layout()
+#plt.tight_layout()
 plt.show()
 plt.close(fig)
 
