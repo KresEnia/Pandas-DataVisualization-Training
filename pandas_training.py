@@ -300,7 +300,7 @@ print(top_vma)
 fig, ax = plt.subplots()
 gallstone_dataset['BMI category'].value_counts(normalize=True).plot(kind='bar', ax=ax)
 ax.set_title('Distribution of BMI Categories')
-plt.xticks(rotation=35)
+plt.xticks(rotation=360)
 plt.show()
 plt.close(fig)
 
