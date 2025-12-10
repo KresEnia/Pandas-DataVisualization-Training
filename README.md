@@ -15,7 +15,11 @@ This dataset includes clinical and demographic features of patients with and wit
 
 📂 Repository Structure
 ├── pandas_training.py        # Practice with pandas & seaborn
+
 ├── plots_tasks.py            # Practice with matplotlib & plotly
+
 ├── seaborn_graphs/   # Folder with resulting plots from script 1
+
 ├── plotly_graphs/    # Folder with resulting plots from script 2
+
 └── README.md
